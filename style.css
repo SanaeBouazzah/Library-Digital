@@ -162,4 +162,12 @@ nav ul li a i{
   .toggle-open{
     display: block;
   }
+  nav.active ul li{
+    pointer-events: none;
+    padding: 15px;
+  }
+  nav ul li .menu{
+    display: block;
+    margin-right: 50px;
+  }
 }
