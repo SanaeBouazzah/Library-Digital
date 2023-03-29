@@ -1,0 +1,166 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  padding-top:50px;
+  height: 5000px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media (min-width: 576px) {
+  .container {
+      max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+      max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+      max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+      max-width: 1140px;
+  }
+}
+a{
+  text-decoration: none;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header{
+  position: relative;
+  width:100%;
+  height: 100vh;
+}
+.navbar{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background-color: #e7960021;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+  padding:13px 0;
+  transition: 0.6s linear;
+    -webkit-transition: 0.6s linear;
+    -moz-transition: 0.6s linear;
+    -ms-transition: 0.6s linear;
+    -o-transition: 0.6s linear;
+}
+.navbar.sticky{
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.1);
+  background-color: burlywood;
+  z-index: 99;
+}
+.navigation{
+  height: 50px;
+  padding:30px 0;
+}
+.logo{
+  width:140px;
+}
+.logo a img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+nav{
+  direction: rtl;
+}
+nav ul li {
+  display: inline-block;
+  padding:10px;
+  position: relative;
+}
+nav ul li .menu{
+  display: none;
+}
+nav ul li:hover .menu {
+  display: block;
+  position: absolute;
+  top:40px;
+  left:0;
+  width: 110px;
+  background-color: #e3e3e3;
+  transition: all 4s linear;
+}
+nav ul li:hover .menu li{
+  display: block;
+  text-align: center;
+}
+nav ul li a{
+  color:#000;
+  font-size: 18px;
+}
+nav ul li a i{
+  padding-right: 5px;
+  font-size: 13px;
+  color:#000;
+}
+.toggle-open, .toggle-close{
+  cursor: pointer;
+}
+.toggle-close{
+  display: none;
+  font-size: 20px;
+}
+.toggle-open{
+  display: none;
+  font-size: 20px;
+}
+@media screen and (max-width:768px){
+  nav{
+    position:relative;
+  }
+  nav ul li{
+    display: none;
+    padding-top:40px;
+    text-align: center;
+  }
+  nav.active{
+    background-color: beige;
+    position: fixed;
+    top:0;
+    right:0;
+    height: 100vh;
+    width:200px;
+  }
+  nav.active > ul li{
+    display: block;
+  }
+  nav.active > ul .toggle-close{
+    display: block;
+  }
+  nav.active > ul{
+    padding: 50px 0;
+
+  }
+  nav.active > ul .toggle-close i{
+    text-align:right;
+    display: block;
+    margin-right: 30px;
+  }
+  .toggle-open{
+    display: block;
+  }
+}
