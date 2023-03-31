@@ -30,13 +30,33 @@
               <li>
                 <a href="">الكتب<i class="fa-solid fa-angle-down"></i></a>
                 <ul class="menu">
-                  <li><a href="">كتب قانونية </a></li>
-                  <li><a href="">كتب عربية</a></li>
-                  <li><a href="">كتب سياسية</a></li>
+                  <li>
+                    <a href="">كتب قانونية<i class="fa-solid fa-angle-left"></i></a>
+                    <ul class="menu2">
+                      <li><a href="">QSM</a></li>
+                      <li><a href="">محاضرات</a></li>
+                      <li><a href="">إمتحانات</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="">كتب عربية <i class="fa-solid fa-angle-left"></i></a>
+                    <ul class="menu2">
+                      <li><a href="">QSM</a></li>
+                      <li><a href="">محاضرات</a></li>
+                      <li><a href="">إمتحانات</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="">كتب سياسية <i class="fa-solid fa-angle-left"></i></a>
+                    <ul class="menu2">
+                      <li><a href="">QSM</a></li>
+                      <li><a href="">محاضرات</a></li>
+                      <li><a href="">إمتحانات</a></li>
+                    </ul>
+                  </li>
                 </ul>
               </li>
-              <li><a href="">إمتحانات</a></li>
-              <li><a href="">محاضرات</a></li>
+              <li><a href="">مسارات</a></li>
               <li><a href="">بحوث</a></li>
               <li><a href="">دكتورة</a></li>
               <li><a href="">إضافة كتاب</a></li>

@@ -95,13 +95,13 @@ nav ul li {
 nav ul li .menu{
   display: none;
 }
-nav ul li:hover .menu {
+nav ul li:focus .menu{
   display: block;
   position: absolute;
   top:40px;
   left:0;
   width: 110px;
-  background-color: #e3e3e3;
+  z-index: 1;
   transition: all 4s linear;
 }
 nav ul li:hover .menu li{
@@ -111,10 +111,24 @@ nav ul li:hover .menu li{
 nav ul li a{
   color:#000;
   font-size: 18px;
+  pointer-events: none;
 }
 nav ul li a i{
   padding-right: 5px;
   font-size: 13px;
+}
+nav ul li:hover .menu li .menu2{
+  display: none;
+  position: relative;
+  width:100px;
+  padding: 10px 0;
+}
+nav ul li:hover .menu li:hover .menu2{
+  display: block;
+  position: absolute;
+  top:10px;
+  right:120px;
+  background-color: beige;
 }
 .toggle-open, .toggle-close{
   cursor: pointer;
@@ -163,10 +177,9 @@ nav ul li a i{
     display: block;
   }
   nav.active ul li{
-    pointer-events: none;
     padding: 15px;
   }
-  nav ul li .menu{
+  nav.active ul li:hover .menu{
     display: block;
     margin-right: 50px;
   }
