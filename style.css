@@ -57,7 +57,6 @@ header{
   top:0;
   left:0;
   width:100%;
-  background-color: #e7960021;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
   z-index: 99;
   padding:13px 0;
@@ -77,7 +76,7 @@ header{
   padding:30px 0;
 }
 .logo{
-  width:140px;
+  width:120px;
 }
 .logo a img{
   width: 100%;
@@ -95,14 +94,16 @@ nav ul li {
 nav ul li .menu{
   display: none;
 }
-nav ul li:focus .menu{
+nav ul li:focus .menu,
+nav ul li:hover .menu{
   display: block;
   position: absolute;
   top:40px;
-  left:0;
-  width: 110px;
+  left:-40px;
+  width: 140px;
   z-index: 1;
   transition: all 4s linear;
+  background-color: beige;
 }
 nav ul li:hover .menu li{
   display: block;
@@ -127,7 +128,7 @@ nav ul li:hover .menu li:hover .menu2{
   display: block;
   position: absolute;
   top:10px;
-  right:120px;
+  right:100px;
   background-color: beige;
 }
 .toggle-open, .toggle-close{
@@ -140,6 +141,22 @@ nav ul li:hover .menu li:hover .menu2{
 .toggle-open{
   display: none;
   font-size: 20px;
+}
+.navigation form input{
+  border:none;
+  outline: none;
+  padding:5px 15px;
+  max-width: 200px;
+  border-radius: 30px;
+  width: 100%;
+  direction: rtl;
+  font-size: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+@media screen and (max-width:992px){
+  .navigation form input{
+    max-width: 130px;
+  }
 }
 @media screen and (max-width:768px){
   nav{

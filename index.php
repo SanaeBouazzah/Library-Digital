@@ -62,6 +62,9 @@
               <li><a href="">إضافة كتاب</a></li>
             </ul>
           </nav>
+          <form>
+            <input type="text" placeholder="إبحث...">
+          </form>
           <div class="toggle-open"><i class="fa-solid fa-bars"></i></div>
         </div>
       </div>
