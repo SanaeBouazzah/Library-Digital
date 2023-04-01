@@ -99,7 +99,6 @@ nav ul li {
 nav ul li .menu{
   display: none;
 }
-
 nav ul li:hover .menu{
   display: block;
   position: absolute;
