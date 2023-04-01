@@ -108,11 +108,13 @@ nav ul li:hover .menu{
   width: 140px;
   z-index: 1;
   transition: all 4s linear;
-  background-color: beige;
+  background-color: #fff;
 }
 nav ul li:hover .menu li{
   display: block;
   text-align: center;
+  border:1px solid #e4e4e4;
+  padding:10px;
 }
 nav ul li a{
   color:#000;
@@ -127,14 +129,19 @@ nav ul li:hover .menu li .menu2{
   display: none;
   position: relative;
   width:100px;
-  padding: 10px 0;
 }
 nav ul li:hover .menu li:hover .menu2{
   display: block;
   position: absolute;
   top:10px;
   right:100px;
-  background-color: beige;
+  z-index: 99;
+  width:150px;
+}
+.menu2 li{
+  border:1px solid #e4e4e4;
+  background-color: #fff;
+  padding:20px 10px;
 }
 .toggle-open, .toggle-close{
   cursor: pointer;
