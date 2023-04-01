@@ -94,7 +94,7 @@ nav ul li {
 nav ul li .menu{
   display: none;
 }
-nav ul li:focus .menu,
+
 nav ul li:hover .menu{
   display: block;
   position: absolute;
@@ -151,7 +151,8 @@ nav ul li:hover .menu li:hover .menu2{
   width: 100%;
   direction: rtl;
   font-size: 20px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid #e5e5e5;
 }
 @media screen and (max-width:992px){
   .navigation form input{
