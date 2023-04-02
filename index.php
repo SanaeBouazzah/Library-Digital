@@ -69,6 +69,15 @@
         </div>
       </div>
     </div>
+    <div class="content">
+      <div class="container">
+        <div class="books">
+          <div class="book">
+            
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
   <script src="main.js"></script>
 </body>

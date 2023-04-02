@@ -216,3 +216,12 @@ nav ul li:hover .menu li:hover .menu2{
     padding: 15px;
   }
 }
+/* content********************************************************************************************************************* */
+.content{
+  padding:80px 0;
+}
+.content .book{
+  width:200px;
+  height: 300px;
+  border: 1px solid #ccc;
+}
