@@ -58,21 +58,23 @@
               </li>
               <li><a href="">مسارات</a></li>
               <li>
-                <a href=""> بحوث</a>
+                <a href=""> بحوث <i class="fa-solid fa-angle-down"></i></a>
                 <ul class="menu">
                   <li>
-                    <a href="">بحوث عربية<i class="fa-solid fa-angle-left"></i></a>
+                    <a href="">بحوث عربية</a>
                   </li>
                   <li>
-                    <a href=""> بحوث عربية<i class="fa-solid fa-angle-left"></i></a>
+                    <a href=""> بحوث عربية</a>
                   </li>
                   <li>
-                    <a href="">بحوث عربية<i class="fa-solid fa-angle-left"></i></a>
+                    <a href="">بحوث عربية</i></a>
                   </li>
                 </ul>
             </li>
               <li><a href="">دكتورة</a></li>
-              <li><a href="">إضافة كتاب</a></li>
+              <li><a href=""> روايات</a></li>
+              <li><a href="">إضافة كتاب  +</a></li>
+              <li><a href="">لوحتك</a></li>
             </ul>
           </nav>
           <form>
