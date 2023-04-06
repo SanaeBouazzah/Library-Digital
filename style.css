@@ -95,6 +95,7 @@ nav ul li {
   display: inline-block;
   padding:10px;
   position: relative;
+  cursor: pointer;
 }
 nav ul li .menu{
   display: none;
@@ -142,7 +143,7 @@ nav ul li:hover .menu li:hover .menu2{
   background-color: #fff;
   padding:20px 10px;
 }
-nav ul li:last-child a{
+nav ul .dashboard a{
   background-color: #264899;
   color:#fff;
   padding: 10px 25px;

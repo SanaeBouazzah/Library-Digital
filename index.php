@@ -74,7 +74,7 @@
               <li><a href="">دكتورة</a></li>
               <li><a href=""> روايات</a></li>
               <li><a href="">إضافة كتاب  +</a></li>
-              <li><a href="">لوحتك</a></li>
+              <li class="dashboard"><a href="">لوحتك</a></li>
             </ul>
           </nav>
           <form>
