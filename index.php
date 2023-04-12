@@ -86,7 +86,7 @@
     </div>
     <div class="content">
       <div class="Library-Digital_container">
-        <div class="books">
+        <div class="books flex">
           <div class="book">
             
           </div>
