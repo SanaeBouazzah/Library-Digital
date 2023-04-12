@@ -14,28 +14,28 @@ body {
 html {
   scroll-behavior: smooth;
 }
-.container {
+.Library-Digital_container {
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
 @media (min-width: 576px) {
-  .container {
+  .Library-Digital_container {
       max-width: 540px;
   }
 }
 @media (min-width: 768px) {
-  .container {
+  .Library-Digital_container {
       max-width: 720px;
   }
 }
 @media (min-width: 992px) {
-  .container {
+  .Library-Digital_container {
       max-width: 960px;
   }
 }
 @media (min-width: 1200px) {
-  .container {
+  .Library-Digital_container {
       max-width: 1140px;
   }
 }
@@ -56,7 +56,7 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
 }
-.navbar{
+.Libraray-Digital-navbar{
   position: fixed;
   top:0;
   left:0;
@@ -71,19 +71,19 @@ header{
     -ms-transition: 0.6s linear;
     -o-transition: 0.6s linear;
 }
-.navbar.sticky{
+.Libraray-Digital-navbar.sticky{
   box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.1);
   background-color: burlywood;
   z-index: 99;
 }
-.navigation{
+.Libraray-Digital-navigation{
   height: 50px;
   padding:30px 0;
 }
-.logo{
+.Library-Digital-logo{
   width:120px;
 }
-.logo a img{
+.Library-Digital-logo a img{
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -143,25 +143,25 @@ nav ul li:hover .menu li:hover .menu2{
   background-color: #fff;
   padding:20px 10px;
 }
-nav ul .dashboard a{
+nav ul .Library-Digital_dashboard a{
   background-color: #264899;
   color:#fff;
   padding: 10px 25px;
   border-radius: 30px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
-.toggle-open, .toggle-close{
+.Library-Digital_toggle-open, .Library-Digital_toggle-close{
   cursor: pointer;
 }
-.toggle-close{
+.Library-Digital_toggle-close{
   display: none;
   font-size: 20px;
 }
-.toggle-open{
+.Library-Digital_toggle-open{
   display: none;
   font-size: 20px;
 }
-.navigation form input{
+.Libraray-Digital-navigation form input{
   border:none;
   outline: none;
   padding:5px 15px;
@@ -174,7 +174,7 @@ nav ul .dashboard a{
   border: 1px solid #e5e5e5;
 }
 @media screen and (max-width:992px){
-  .navigation form input{
+  .Libraray-Digital-navigation form input{
     max-width: 130px;
   }
 }
@@ -198,19 +198,19 @@ nav ul .dashboard a{
   nav.active > ul li{
     display: block;
   }
-  nav.active > ul .toggle-close{
+  nav.active > ul .Library-Digital_toggle-close{
     display: block;
   }
   nav.active > ul{
     padding: 50px 0;
 
   }
-  nav.active > ul .toggle-close i{
+  nav.active > ul .Library-Digital_toggle-close i{
     text-align:right;
     display: block;
     margin-right: 30px;
   }
-  .toggle-open{
+  .Library-Digital_toggle-open{
     display: block;
   }
   nav.active ul li{

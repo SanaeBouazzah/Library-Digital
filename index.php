@@ -17,15 +17,15 @@
 
 <body>
   <header>
-    <div class="navbar">
-      <div class="container">
-        <div class="navigation flex">
-          <div class="logo"><a href="">
+    <div class="Libraray-Digital-navbar">
+      <div class="Library-Digital_container">
+        <div class="Libraray-Digital-navigation flex">
+          <div class="Library-Digital-logo"><a href="">
               <img src="logo.png" alt="">
             </a></div>
           <nav>
             <ul>
-              <div class="toggle-close"><i class="fa-solid fa-xmark"></i></div>
+              <div class="Library-Digital_toggle-close"><i class="fa-solid fa-xmark"></i></div>
               <li><a class="link-active" href="">الرئيسية</a></li>
               <li>
                 <a href="">الكتب<i class="fa-solid fa-angle-down"></i></a>
@@ -74,13 +74,13 @@
               <li><a href="">دكتورة</a></li>
               <li><a href=""> روايات</a></li>
               <li><a href="">إضافة كتاب  +</a></li>
-              <li class="dashboard"><a href="">لوحتك</a></li>
+              <li class="Library-Digital_dashboard"><a href="">لوحتك</a></li>
             </ul>
           </nav>
           <form>
             <input type="text" placeholder="إبحث...">
           </form>
-          <div class="toggle-open"><i class="fa-solid fa-bars"></i></div>
+          <div class="Library-Digital_toggle-open"><i class="fa-solid fa-bars"></i></div>
         </div>
       </div>
     </div>
